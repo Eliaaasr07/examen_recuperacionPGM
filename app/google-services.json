@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "116759565283",
+    "project_id": "fernando-rodriguez-902fa",
+    "storage_bucket": "fernando-rodriguez-902fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116759565283:android:83ec1a2b7d013bced306d6",
+        "android_client_info": {
+          "package_name": "com.example.consesionariorodriguez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_vFfkWpTzzfMKmTz0zxwRjoy7inFlZQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

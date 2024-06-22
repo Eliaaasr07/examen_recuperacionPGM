@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Label -->
+    <TextView
+        android:id="@+id/label_concesionaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concesionaria Rodriguez"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- ImageView para la imagen -->
+    <ImageView
+        android:id="@+id/image_concesionaria"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/label_concesionaria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="Imagen de la Concesionaria"
+        app:srcCompat="@drawable/Fernando" /> <!-- Asegúrate de reemplazar 'tu_imagen' con el nombre de tu imagen en res/drawable -->
+
+    <!-- Botón Registrar Auto -->
+    <Button
+        android:id="@+id/button_registrar_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar Auto"
+        android:layout_below="@id/image_concesionaria"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- Botón Ver Autos -->
+    <Button
+        android:id="@+id/button_ver_autos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Autos"
+        android:layout_below="@id/button_registrar_auto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
